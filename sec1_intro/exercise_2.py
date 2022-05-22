@@ -8,4 +8,3 @@ age = int(input("What is your age? "))
 # Then, print out how many months that equals to (you'll have to multiply the age by 12).
 months_in_age = age * 12
 print(months_in_age)
-print(2022 - 1975)
