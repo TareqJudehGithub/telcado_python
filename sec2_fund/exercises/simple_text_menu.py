@@ -8,5 +8,3 @@ while user_input:
     elif user_input == "q":
         break
     user_input = input("Press p for 'Hello', or q to quit: ")
-    
-    
