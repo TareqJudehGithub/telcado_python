@@ -1,5 +1,9 @@
-from unicodedata import name
 
+"""
+for loop
+  A for loop is for repeating things a specific number of times.  
+  A for loop goes over a collection of elements.
+"""
 
 print("")
 friends = ["emad", "AJ", "yanal", "tamer"]
