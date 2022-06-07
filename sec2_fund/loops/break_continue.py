@@ -1,15 +1,17 @@
 from itertools import count
 
-
-cars = ["ok", "ok", "ok", "ok", "faulty", "ok", "ok"]
+cars = ["ok", "ok", "ok", "ok", "bad", "ok", "ok"]
 
 for status in cars:
-  if status == "faulty":
+  if status is not "ok":
     print(f"This car status is {status}")
-    continue
+    break
   else:
     print(f"This car status is {status}")
-print("end of loop")
+# we can also use 'else' with loops. 
+else:
+  print("end of loop")  
+
 print("")
 
 

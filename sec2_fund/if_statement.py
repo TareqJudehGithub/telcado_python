@@ -1,7 +1,8 @@
 """
 IF statement
-  - if statement allows us to make decisions.
-  - if statement
+  - If statement allows us to make decisions.
+  - We can use else with loops, not just with if statements.
+  
 """
 
 friends = ["John", "Sarah", "Anna", "William"]
